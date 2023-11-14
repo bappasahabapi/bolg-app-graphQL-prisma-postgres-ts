@@ -1,6 +1,7 @@
 ###    🎲 Branches
 
-- 00 🔥 [typescript+graphQl server starter](https://github.com/bappasahabapi/bolg-app-graphQL-prisma-postgres-ts/tree/bappa/01/graphL-typescript-starter)
+- 02 🔥 [typescript+graphQl+prisma+postgres starter](https://github.com/bappasahabapi/bolg-app-graphQL-prisma-postgres-ts/tree/bappa/02/prisma-postgres-graphQL-typeScript-starter)
+- 01 🔥 [typescript+graphQl server starter](https://github.com/bappasahabapi/bolg-app-graphQL-prisma-postgres-ts/tree/bappa/01/graphL-typescript-starter)
 
 [server doc:](https://www.apollographql.com/docs/apollo-server/)
 ###   Task-1 [Project Initialization]
@@ -117,3 +118,29 @@ const main = async () => {
 main()
 
 ```
+
+###   Task-3 [setup Prisma and postgres]. 
+
+- [setup document link](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql)
+- **commands**
+- `npx tsc --init` 
+To make **tsconfig.json** and comment out 
+    - `"rootDir": "./src", `
+    - ` "outDir": "./dist",    `
+- Next install prisma 
+  - `yarn add prisma`
+
+- For creating schema 
+ - `npx prisma init`
+
+After the command a prisma file is created and now connect the **postgres database**
+
+####    postges connection:
+go to the .env file and set the d
+
+- `DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"`
+to ⬇️
+- `DATABASE_URL="postgresql://postgres:postgres@localhost:5432/blog_db?schema=public"`
+
+**set up is done**-----------------
+
