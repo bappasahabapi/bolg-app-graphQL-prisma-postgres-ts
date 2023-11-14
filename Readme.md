@@ -1,4 +1,6 @@
-###    🎲 Project Initialization
+###    🎲 Branches
+
+- 00 🔥 [typescript+graphQl server starter](https://github.com/bappasahabapi/bolg-app-graphQL-prisma-postgres-ts/tree/bappa/01/graphL-typescript-starter)
 
 [server doc:](https://www.apollographql.com/docs/apollo-server/)
 ###   Task-1 [Project Initialization]
