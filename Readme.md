@@ -142,5 +142,8 @@ go to the .env file and set the d
 to ⬇️
 - `DATABASE_URL="postgresql://postgres:postgres@localhost:5432/blog_db?schema=public"`
 
+🔲 Now run the command 
+-`npx prisma migrate dev`
+
 **set up is done**-----------------
 

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@apollo/server": "^4.9.5",
+    "@prisma/client": "5.6.0",
     "@types/node": "^20.9.0",
     "graphql": "^16.8.1",
     "prima": "^0.0.1",
@@ -15,6 +16,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prisma": "5.6.0"
   }
 }
